@@ -1,0 +1,23 @@
+istream& operator>>(istream& LHS, CS202_String&  RHS){
+    // '\n', ' ', '\t' -> Whitespace characters
+    if(RHS.charArr != nullptr){ // Avoid Memory leaks
+        delete[] RHS.charArr;
+        RHS.charArr = nullptr; // Avoid dangling ptr
+    }
+    RHS.size = 0; // Reset Size
+    char temp; // Temp character to read into
+    while(LHS.get(temp) && !LHS.eof() ){ // Read in char by char
+        if(isspace(temp)){ // If whitespace
+            break; // Break out of while loop
+        } 
+        RHS.size++;
+        char *newArr = new char[RHS.size]; // Allocate arr of bigger size
+        for(int i = 0; i < RHS.size - 1; i++){
+            newArr[i] = RHS.charArr[i]; // Copy old elements
+        }
+        newArr[RHS.size - 1] = temp; // Add read char
+        delete[] RHS.charArr; // delete old arr
+        RHS.charArr = newArr; 
+    }
+    return LHS;
+}
