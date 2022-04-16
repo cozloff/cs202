@@ -1,0 +1,31 @@
+[piotrj1@bobby test]$ ./a.out
+Enter Seed: 3
+Enter Height of Game Grid (must be 10+):
+10
+Enter Width of Game Grid (must be 10+):
+10
+Enter the Difficulty Level (must be 1+): 1
+
+------------------
+| Current Score: |  0
+------------------
+ * Armor Bonus: *  0
+
+|#|#|#|#|#|#|#|#|#|#|
+|#|M|0|0|$|^|0|0|0|#|
+|#|0|0|0|0|0|0|0|0|#|
+|#|0|0|0|^|0|0|0|0|#|
+|#|0|0|0|0|$|0|0|0|#|
+|#|0|0|0|0|0|0|0|0|#|
+|#|0|0|0|0|0|^|0|0|#|
+|#|0|0|0|0|0|0|0|0|#|
+|#|0|^|$|0|0|0|0|$|E|
+|#|#|#|#|#|#|#|#|#|#|
+
+Where will the miner go?
+(l)eft, (r)ight, (u)p, (d)own :
+d
+The miner digs into rock invested with Carnivorous Silverfish!
+The miner is attacked by Carnivorous Silverfish!
+AAAAAAAGHHHHHHHHH!
+[piotrj1@bobby test]$
