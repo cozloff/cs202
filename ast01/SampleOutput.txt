@@ -1,0 +1,1748 @@
+[piotrj1@bobby test]$ ./a.out Cereal.txt
+File Opened!
+--------------------------
+|          Menu          |
+--------------------------
+ (1) Search by Name
+ (2) Sort Cereal Array
+ (3) Find Max or Min Cereal
+ (4) Write Cereal Array to File
+ (5) Print the Whole Array
+ (6) Quit
+--------------------------
+1
+Enter Cereal Name
+Cap'n'Crunch
+Cereal:
+*******************
+* Cap'n'Crunch
+*******************
+* MFR: Q
+* TYPE: C
+* CALORIES: 120
+* PROTEIN: 1
+* FAT: 2
+* SODIUM: 220
+* FIBER: 0
+* CARBO: 12
+* SUGARS: 12
+* POTASS: 35
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 18.04
+*******************
+
+--------------------------
+|          Menu          |
+--------------------------
+ (1) Search by Name
+ (2) Sort Cereal Array
+ (3) Find Max or Min Cereal
+ (4) Write Cereal Array to File
+ (5) Print the Whole Array
+ (6) Quit
+--------------------------
+2
+What is the type of field you are sorting on?
+  (n)umber
+  (c)haracter
+  (s)tring
+n
+What field are you sorting on?
+cups
+Sorting complete.
+--------------------------
+|          Menu          |
+--------------------------
+ (1) Search by Name
+ (2) Sort Cereal Array
+ (3) Find Max or Min Cereal
+ (4) Write Cereal Array to File
+ (5) Print the Whole Array
+ (6) Quit
+--------------------------
+3
+Do you want to find the max or the min value?
+(0) min
+(1) max
+1
+What numeric field do you want to look for?
+potass
+Max Found!
+Cereal:
+*******************
+* All-Bran with Extra Fiber
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 50
+* PROTEIN: 4
+* FAT: 0
+* SODIUM: 140
+* FIBER: 14
+* CARBO: 8
+* SUGARS: 0
+* POTASS: 330
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.5
+* RATING: 93.7
+*******************
+
+--------------------------
+|          Menu          |
+--------------------------
+ (1) Search by Name
+ (2) Sort Cereal Array
+ (3) Find Max or Min Cereal
+ (4) Write Cereal Array to File
+ (5) Print the Whole Array
+ (6) Quit
+--------------------------
+4
+Enter the file name.
+myCereal.txt
+Saved to myCereal.txt.
+--------------------------
+|          Menu          |
+--------------------------
+ (1) Search by Name
+ (2) Sort Cereal Array
+ (3) Find Max or Min Cereal
+ (4) Write Cereal Array to File
+ (5) Print the Whole Array
+ (6) Quit
+--------------------------
+5
+Cereal:
+*******************
+* Kix
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 260
+* FIBER: 0
+* CARBO: 21
+* SUGARS: 3
+* POTASS: 40
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1.5
+* RATING: 39.24
+*******************
+
+Cereal:
+*******************
+* Honey-comb
+*******************
+* MFR: P
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 1
+* FAT: 0
+* SODIUM: 180
+* FIBER: 0
+* CARBO: 14
+* SUGARS: 11
+* POTASS: 35
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 1.33
+* RATING: 28.74
+*******************
+
+Cereal:
+*******************
+* Cheerios
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 6
+* FAT: 2
+* SODIUM: 290
+* FIBER: 2
+* CARBO: 17
+* SUGARS: 1
+* POTASS: 105
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 1.25
+* RATING: 50.76
+*******************
+
+Cereal:
+*******************
+* Rice Chex
+*******************
+* MFR: R
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 1
+* FAT: 0
+* SODIUM: 240
+* FIBER: 0
+* CARBO: 23
+* SUGARS: 2
+* POTASS: 30
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 1.13
+* RATING: 42
+*******************
+
+Cereal:
+*******************
+* 100% Natural Bran
+*******************
+* MFR: Q
+* TYPE: C
+* CALORIES: 120
+* PROTEIN: 3
+* FAT: 5
+* SODIUM: 15
+* FIBER: 2
+* CARBO: 8
+* SUGARS: 8
+* POTASS: 135
+* VITAMINS: 0
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 33.98
+*******************
+
+Cereal:
+*******************
+* Apple Jacks
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 0
+* SODIUM: 125
+* FIBER: 1
+* CARBO: 11
+* SUGARS: 14
+* POTASS: 30
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 33.17
+*******************
+
+Cereal:
+*******************
+* Cocoa Puffs
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 1
+* FAT: 1
+* SODIUM: 180
+* FIBER: 0
+* CARBO: 12
+* SUGARS: 13
+* POTASS: 55
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 22.74
+*******************
+
+Cereal:
+*******************
+* Corn Chex
+*******************
+* MFR: R
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 0
+* SODIUM: 280
+* FIBER: 0
+* CARBO: 22
+* SUGARS: 3
+* POTASS: 25
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 41.45
+*******************
+
+Cereal:
+*******************
+* Corn Flakes
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 2
+* FAT: 0
+* SODIUM: 290
+* FIBER: 1
+* CARBO: 21
+* SUGARS: 2
+* POTASS: 35
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 45.86
+*******************
+
+Cereal:
+*******************
+* Corn Pops
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 1
+* FAT: 0
+* SODIUM: 90
+* FIBER: 1
+* CARBO: 13
+* SUGARS: 12
+* POTASS: 20
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 35.78
+*******************
+
+Cereal:
+*******************
+* Count Chocula
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 1
+* FAT: 1
+* SODIUM: 180
+* FIBER: 0
+* CARBO: 12
+* SUGARS: 13
+* POTASS: 65
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 22.4
+*******************
+
+Cereal:
+*******************
+* Cream of Wheat (Quick)
+*******************
+* MFR: N
+* TYPE: H
+* CALORIES: 100
+* PROTEIN: 3
+* FAT: 0
+* SODIUM: 80
+* FIBER: 1
+* CARBO: 21
+* SUGARS: 0
+* POTASS: -1
+* VITAMINS: 0
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 64.53
+*******************
+
+Cereal:
+*******************
+* Crispix
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 0
+* SODIUM: 220
+* FIBER: 1
+* CARBO: 21
+* SUGARS: 3
+* POTASS: 30
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 46.9
+*******************
+
+Cereal:
+*******************
+* Froot Loops
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 125
+* FIBER: 1
+* CARBO: 11
+* SUGARS: 13
+* POTASS: 30
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 32.21
+*******************
+
+Cereal:
+*******************
+* Honey Graham Ohs
+*******************
+* MFR: Q
+* TYPE: C
+* CALORIES: 120
+* PROTEIN: 1
+* FAT: 2
+* SODIUM: 220
+* FIBER: 1
+* CARBO: 12
+* SUGARS: 11
+* POTASS: 45
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 21.87
+*******************
+
+Cereal:
+*******************
+* Just Right Crunchy Nuggets
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 170
+* FIBER: 1
+* CARBO: 17
+* SUGARS: 6
+* POTASS: 60
+* VITAMINS: 100
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 36.52
+*******************
+
+Cereal:
+*******************
+* Lucky Charms
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 180
+* FIBER: 0
+* CARBO: 12
+* SUGARS: 12
+* POTASS: 55
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 26.73
+*******************
+
+Cereal:
+*******************
+* Maypo
+*******************
+* MFR: A
+* TYPE: H
+* CALORIES: 100
+* PROTEIN: 4
+* FAT: 1
+* SODIUM: 0
+* FIBER: 0
+* CARBO: 16
+* SUGARS: 3
+* POTASS: 95
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 54.85
+*******************
+
+Cereal:
+*******************
+* Muesli Raisins, Dates, & Almonds
+*******************
+* MFR: R
+* TYPE: C
+* CALORIES: 150
+* PROTEIN: 4
+* FAT: 3
+* SODIUM: 95
+* FIBER: 3
+* CARBO: 16
+* SUGARS: 11
+* POTASS: 170
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 37.14
+*******************
+
+Cereal:
+*******************
+* Muesli Raisins, Peaches, & Pecans
+*******************
+* MFR: R
+* TYPE: C
+* CALORIES: 150
+* PROTEIN: 4
+* FAT: 3
+* SODIUM: 150
+* FIBER: 3
+* CARBO: 16
+* SUGARS: 11
+* POTASS: 170
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 34.14
+*******************
+
+Cereal:
+*******************
+* Multi-Grain Cheerios
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 220
+* FIBER: 2
+* CARBO: 15
+* SUGARS: 6
+* POTASS: 90
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 40.11
+*******************
+
+Cereal:
+*******************
+* Nutri-grain Wheat
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 90
+* PROTEIN: 3
+* FAT: 0
+* SODIUM: 170
+* FIBER: 3
+* CARBO: 18
+* SUGARS: 2
+* POTASS: 90
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 59.64
+*******************
+
+Cereal:
+*******************
+* Product 19
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 3
+* FAT: 0
+* SODIUM: 320
+* FIBER: 1
+* CARBO: 20
+* SUGARS: 3
+* POTASS: 45
+* VITAMINS: 100
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 41.5
+*******************
+
+Cereal:
+*******************
+* Puffed Rice
+*******************
+* MFR: Q
+* TYPE: C
+* CALORIES: 50
+* PROTEIN: 1
+* FAT: 0
+* SODIUM: 0
+* FIBER: 0
+* CARBO: 13
+* SUGARS: 0
+* POTASS: 15
+* VITAMINS: 0
+* SHELF: 3
+* WEIGHT: 0.5
+* CUPS: 1
+* RATING: 60.76
+*******************
+
+Cereal:
+*******************
+* Puffed Wheat
+*******************
+* MFR: Q
+* TYPE: C
+* CALORIES: 50
+* PROTEIN: 2
+* FAT: 0
+* SODIUM: 0
+* FIBER: 1
+* CARBO: 10
+* SUGARS: 0
+* POTASS: 50
+* VITAMINS: 0
+* SHELF: 3
+* WEIGHT: 0.5
+* CUPS: 1
+* RATING: 63.01
+*******************
+
+Cereal:
+*******************
+* Rice Krispies
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 0
+* SODIUM: 290
+* FIBER: 0
+* CARBO: 22
+* SUGARS: 3
+* POTASS: 35
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 40.56
+*******************
+
+Cereal:
+*******************
+* Shredded Wheat
+*******************
+* MFR: N
+* TYPE: C
+* CALORIES: 80
+* PROTEIN: 2
+* FAT: 0
+* SODIUM: 0
+* FIBER: 3
+* CARBO: 16
+* SUGARS: 0
+* POTASS: 95
+* VITAMINS: 0
+* SHELF: 1
+* WEIGHT: 0.83
+* CUPS: 1
+* RATING: 68.24
+*******************
+
+Cereal:
+*******************
+* Special K
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 6
+* FAT: 0
+* SODIUM: 230
+* FIBER: 1
+* CARBO: 16
+* SUGARS: 3
+* POTASS: 55
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 53.13
+*******************
+
+Cereal:
+*******************
+* Strawberry Fruit Wheats
+*******************
+* MFR: N
+* TYPE: C
+* CALORIES: 90
+* PROTEIN: 2
+* FAT: 0
+* SODIUM: 15
+* FIBER: 3
+* CARBO: 15
+* SUGARS: 5
+* POTASS: 90
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 59.36
+*******************
+
+Cereal:
+*******************
+* Total Corn Flakes
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 200
+* FIBER: 0
+* CARBO: 21
+* SUGARS: 3
+* POTASS: 35
+* VITAMINS: 100
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 38.84
+*******************
+
+Cereal:
+*******************
+* Total Raisin Bran
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 140
+* PROTEIN: 3
+* FAT: 1
+* SODIUM: 190
+* FIBER: 4
+* CARBO: 15
+* SUGARS: 14
+* POTASS: 230
+* VITAMINS: 100
+* SHELF: 3
+* WEIGHT: 1.5
+* CUPS: 1
+* RATING: 28.59
+*******************
+
+Cereal:
+*******************
+* Total Whole Grain
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 3
+* FAT: 1
+* SODIUM: 200
+* FIBER: 3
+* CARBO: 16
+* SUGARS: 3
+* POTASS: 110
+* VITAMINS: 100
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 46.66
+*******************
+
+Cereal:
+*******************
+* Trix
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 1
+* FAT: 1
+* SODIUM: 140
+* FIBER: 0
+* CARBO: 13
+* SUGARS: 12
+* POTASS: 25
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 27.75
+*******************
+
+Cereal:
+*******************
+* Wheaties
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 3
+* FAT: 1
+* SODIUM: 200
+* FIBER: 3
+* CARBO: 17
+* SUGARS: 3
+* POTASS: 110
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 1
+* RATING: 51.59
+*******************
+
+Cereal:
+*******************
+* Golden Crisp
+*******************
+* MFR: P
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 2
+* FAT: 0
+* SODIUM: 45
+* FIBER: 0
+* CARBO: 11
+* SUGARS: 15
+* POTASS: 40
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 0.88
+* RATING: 35.25
+*******************
+
+Cereal:
+*******************
+* Grape Nuts Flakes
+*******************
+* MFR: P
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 3
+* FAT: 1
+* SODIUM: 140
+* FIBER: 3
+* CARBO: 15
+* SUGARS: 5
+* POTASS: 85
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.88
+* RATING: 52.08
+*******************
+
+Cereal:
+*******************
+* Frosted Mini-Wheats
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 3
+* FAT: 0
+* SODIUM: 0
+* FIBER: 3
+* CARBO: 14
+* SUGARS: 7
+* POTASS: 100
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 0.8
+* RATING: 58.35
+*******************
+
+Cereal:
+*******************
+* Almond Delight
+*******************
+* MFR: R
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 2
+* SODIUM: 200
+* FIBER: 1
+* CARBO: 14
+* SUGARS: 8
+* POTASS: -1
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 34.38
+*******************
+
+Cereal:
+*******************
+* Apple Cinnamon Cheerios
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 2
+* SODIUM: 180
+* FIBER: 1.5
+* CARBO: 10.5
+* SUGARS: 10
+* POTASS: 70
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 29.51
+*******************
+
+Cereal:
+*******************
+* Basic 4
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 130
+* PROTEIN: 3
+* FAT: 2
+* SODIUM: 210
+* FIBER: 2
+* CARBO: 18
+* SUGARS: 8
+* POTASS: 100
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1.33
+* CUPS: 0.75
+* RATING: 37.04
+*******************
+
+Cereal:
+*******************
+* Cap'n'Crunch
+*******************
+* MFR: Q
+* TYPE: C
+* CALORIES: 120
+* PROTEIN: 1
+* FAT: 2
+* SODIUM: 220
+* FIBER: 0
+* CARBO: 12
+* SUGARS: 12
+* POTASS: 35
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 18.04
+*******************
+
+Cereal:
+*******************
+* Cinnamon Toast Crunch
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 120
+* PROTEIN: 1
+* FAT: 3
+* SODIUM: 210
+* FIBER: 0
+* CARBO: 13
+* SUGARS: 9
+* POTASS: 45
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 19.82
+*******************
+
+Cereal:
+*******************
+* Crispy Wheat & Raisins
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 140
+* FIBER: 2
+* CARBO: 11
+* SUGARS: 10
+* POTASS: 120
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 36.18
+*******************
+
+Cereal:
+*******************
+* Double Chex
+*******************
+* MFR: R
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 2
+* FAT: 0
+* SODIUM: 190
+* FIBER: 1
+* CARBO: 18
+* SUGARS: 5
+* POTASS: 80
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 44.33
+*******************
+
+Cereal:
+*******************
+* Frosted Flakes
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 1
+* FAT: 0
+* SODIUM: 200
+* FIBER: 1
+* CARBO: 14
+* SUGARS: 11
+* POTASS: 25
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 31.44
+*******************
+
+Cereal:
+*******************
+* Fruity Pebbles
+*******************
+* MFR: P
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 1
+* FAT: 1
+* SODIUM: 135
+* FIBER: 0
+* CARBO: 13
+* SUGARS: 12
+* POTASS: 25
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 28.03
+*******************
+
+Cereal:
+*******************
+* Golden Grahams
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 1
+* FAT: 1
+* SODIUM: 280
+* FIBER: 0
+* CARBO: 15
+* SUGARS: 9
+* POTASS: 45
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 23.8
+*******************
+
+Cereal:
+*******************
+* Honey Nut Cheerios
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 3
+* FAT: 1
+* SODIUM: 250
+* FIBER: 1.5
+* CARBO: 11.5
+* SUGARS: 10
+* POTASS: 90
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 31.07
+*******************
+
+Cereal:
+*******************
+* Just Right Fruit & Nut
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 140
+* PROTEIN: 3
+* FAT: 1
+* SODIUM: 170
+* FIBER: 2
+* CARBO: 20
+* SUGARS: 9
+* POTASS: 95
+* VITAMINS: 100
+* SHELF: 3
+* WEIGHT: 1.3
+* CUPS: 0.75
+* RATING: 36.47
+*******************
+
+Cereal:
+*******************
+* Raisin Bran
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 120
+* PROTEIN: 3
+* FAT: 1
+* SODIUM: 210
+* FIBER: 5
+* CARBO: 14
+* SUGARS: 12
+* POTASS: 240
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1.33
+* CUPS: 0.75
+* RATING: 39.26
+*******************
+
+Cereal:
+*******************
+* Smacks
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 70
+* FIBER: 1
+* CARBO: 9
+* SUGARS: 15
+* POTASS: 40
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 31.23
+*******************
+
+Cereal:
+*******************
+* Triples
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 250
+* FIBER: 0
+* CARBO: 21
+* SUGARS: 3
+* POTASS: 60
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 39.11
+*******************
+
+Cereal:
+*******************
+* Wheaties Honey Gold
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 200
+* FIBER: 1
+* CARBO: 16
+* SUGARS: 8
+* POTASS: 60
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 0.75
+* RATING: 36.19
+*******************
+
+Cereal:
+*******************
+* Bran Chex
+*******************
+* MFR: R
+* TYPE: C
+* CALORIES: 90
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 200
+* FIBER: 4
+* CARBO: 15
+* SUGARS: 6
+* POTASS: 125
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 0.67
+* RATING: 49.12
+*******************
+
+Cereal:
+*******************
+* Bran Flakes
+*******************
+* MFR: P
+* TYPE: C
+* CALORIES: 90
+* PROTEIN: 3
+* FAT: 0
+* SODIUM: 210
+* FIBER: 5
+* CARBO: 13
+* SUGARS: 5
+* POTASS: 190
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.67
+* RATING: 53.31
+*******************
+
+Cereal:
+*******************
+* Fruit & Fibre Dates, Walnuts, and Oats
+*******************
+* MFR: P
+* TYPE: C
+* CALORIES: 120
+* PROTEIN: 3
+* FAT: 2
+* SODIUM: 160
+* FIBER: 5
+* CARBO: 12
+* SUGARS: 10
+* POTASS: 200
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1.25
+* CUPS: 0.67
+* RATING: 40.92
+*******************
+
+Cereal:
+*******************
+* Fruitful Bran
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 120
+* PROTEIN: 3
+* FAT: 0
+* SODIUM: 240
+* FIBER: 5
+* CARBO: 14
+* SUGARS: 12
+* POTASS: 190
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1.33
+* CUPS: 0.67
+* RATING: 41.02
+*******************
+
+Cereal:
+*******************
+* Life
+*******************
+* MFR: Q
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 4
+* FAT: 2
+* SODIUM: 150
+* FIBER: 2
+* CARBO: 12
+* SUGARS: 6
+* POTASS: 95
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 0.67
+* RATING: 45.33
+*******************
+
+Cereal:
+*******************
+* Mueslix Crispy Blend
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 160
+* PROTEIN: 3
+* FAT: 2
+* SODIUM: 150
+* FIBER: 3
+* CARBO: 17
+* SUGARS: 13
+* POTASS: 160
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1.5
+* CUPS: 0.67
+* RATING: 30.31
+*******************
+
+Cereal:
+*******************
+* Nut&Honey Crunch
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 120
+* PROTEIN: 2
+* FAT: 1
+* SODIUM: 190
+* FIBER: 0
+* CARBO: 15
+* SUGARS: 9
+* POTASS: 40
+* VITAMINS: 25
+* SHELF: 2
+* WEIGHT: 1
+* CUPS: 0.67
+* RATING: 29.92
+*******************
+
+Cereal:
+*******************
+* Nutri-Grain Almond-Raisin
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 140
+* PROTEIN: 3
+* FAT: 2
+* SODIUM: 220
+* FIBER: 3
+* CARBO: 21
+* SUGARS: 7
+* POTASS: 130
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1.33
+* CUPS: 0.67
+* RATING: 40.69
+*******************
+
+Cereal:
+*******************
+* Post Nat. Raisin Bran
+*******************
+* MFR: P
+* TYPE: C
+* CALORIES: 120
+* PROTEIN: 3
+* FAT: 1
+* SODIUM: 200
+* FIBER: 6
+* CARBO: 11
+* SUGARS: 14
+* POTASS: 260
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1.33
+* CUPS: 0.67
+* RATING: 37.84
+*******************
+
+Cereal:
+*******************
+* Quaker Oatmeal
+*******************
+* MFR: Q
+* TYPE: H
+* CALORIES: 100
+* PROTEIN: 5
+* FAT: 2
+* SODIUM: 0
+* FIBER: 2.7
+* CARBO: -1
+* SUGARS: -1
+* POTASS: 110
+* VITAMINS: 0
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 0.67
+* RATING: 50.83
+*******************
+
+Cereal:
+*******************
+* Shredded Wheat 'n'Bran
+*******************
+* MFR: N
+* TYPE: C
+* CALORIES: 90
+* PROTEIN: 3
+* FAT: 0
+* SODIUM: 0
+* FIBER: 4
+* CARBO: 19
+* SUGARS: 0
+* POTASS: 140
+* VITAMINS: 0
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 0.67
+* RATING: 74.47
+*******************
+
+Cereal:
+*******************
+* Shredded Wheat spoon size
+*******************
+* MFR: N
+* TYPE: C
+* CALORIES: 90
+* PROTEIN: 3
+* FAT: 0
+* SODIUM: 0
+* FIBER: 3
+* CARBO: 20
+* SUGARS: 0
+* POTASS: 120
+* VITAMINS: 0
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 0.67
+* RATING: 72.8
+*******************
+
+Cereal:
+*******************
+* Wheat Chex
+*******************
+* MFR: R
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 3
+* FAT: 1
+* SODIUM: 230
+* FIBER: 3
+* CARBO: 17
+* SUGARS: 3
+* POTASS: 115
+* VITAMINS: 25
+* SHELF: 1
+* WEIGHT: 1
+* CUPS: 0.67
+* RATING: 49.79
+*******************
+
+Cereal:
+*******************
+* All-Bran with Extra Fiber
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 50
+* PROTEIN: 4
+* FAT: 0
+* SODIUM: 140
+* FIBER: 14
+* CARBO: 8
+* SUGARS: 0
+* POTASS: 330
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.5
+* RATING: 93.7
+*******************
+
+Cereal:
+*******************
+* Clusters
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 3
+* FAT: 2
+* SODIUM: 140
+* FIBER: 2
+* CARBO: 13
+* SUGARS: 7
+* POTASS: 105
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.5
+* RATING: 40.4
+*******************
+
+Cereal:
+*******************
+* Cracklin' Oat Bran
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 3
+* FAT: 3
+* SODIUM: 140
+* FIBER: 4
+* CARBO: 10
+* SUGARS: 7
+* POTASS: 160
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.5
+* RATING: 40.45
+*******************
+
+Cereal:
+*******************
+* Oatmeal Raisin Crisp
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 130
+* PROTEIN: 3
+* FAT: 2
+* SODIUM: 170
+* FIBER: 1.5
+* CARBO: 13.5
+* SUGARS: 10
+* POTASS: 120
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1.25
+* CUPS: 0.5
+* RATING: 30.45
+*******************
+
+Cereal:
+*******************
+* Quaker Oat Squares
+*******************
+* MFR: Q
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 4
+* FAT: 1
+* SODIUM: 135
+* FIBER: 2
+* CARBO: 14
+* SUGARS: 6
+* POTASS: 110
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.5
+* RATING: 49.51
+*******************
+
+Cereal:
+*******************
+* Raisin Nut Bran
+*******************
+* MFR: G
+* TYPE: C
+* CALORIES: 100
+* PROTEIN: 3
+* FAT: 2
+* SODIUM: 140
+* FIBER: 2.5
+* CARBO: 10.5
+* SUGARS: 8
+* POTASS: 140
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.5
+* RATING: 39.7
+*******************
+
+Cereal:
+*******************
+* Raisin Squares
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 90
+* PROTEIN: 2
+* FAT: 0
+* SODIUM: 0
+* FIBER: 2
+* CARBO: 15
+* SUGARS: 6
+* POTASS: 110
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.5
+* RATING: 55.33
+*******************
+
+Cereal:
+*******************
+* 100% Bran
+*******************
+* MFR: N
+* TYPE: C
+* CALORIES: 70
+* PROTEIN: 4
+* FAT: 1
+* SODIUM: 130
+* FIBER: 10
+* CARBO: 5
+* SUGARS: 6
+* POTASS: 280
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.33
+* RATING: 68.4
+*******************
+
+Cereal:
+*******************
+* All-Bran
+*******************
+* MFR: K
+* TYPE: C
+* CALORIES: 70
+* PROTEIN: 4
+* FAT: 1
+* SODIUM: 260
+* FIBER: 9
+* CARBO: 7
+* SUGARS: 5
+* POTASS: 320
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.33
+* RATING: 59.43
+*******************
+
+Cereal:
+*******************
+* Great Grains Pecan
+*******************
+* MFR: P
+* TYPE: C
+* CALORIES: 120
+* PROTEIN: 3
+* FAT: 3
+* SODIUM: 75
+* FIBER: 3
+* CARBO: 13
+* SUGARS: 4
+* POTASS: 100
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.33
+* RATING: 45.81
+*******************
+
+Cereal:
+*******************
+* Grape-Nuts
+*******************
+* MFR: P
+* TYPE: C
+* CALORIES: 110
+* PROTEIN: 3
+* FAT: 0
+* SODIUM: 170
+* FIBER: 3
+* CARBO: 17
+* SUGARS: 3
+* POTASS: 90
+* VITAMINS: 25
+* SHELF: 3
+* WEIGHT: 1
+* CUPS: 0.25
+* RATING: 53.37
+*******************
+
+--------------------------
+|          Menu          |
+--------------------------
+ (1) Search by Name
+ (2) Sort Cereal Array
+ (3) Find Max or Min Cereal
+ (4) Write Cereal Array to File
+ (5) Print the Whole Array
+ (6) Quit
+--------------------------
+6
+[piotrj1@bobby test]$
